@@ -1,36 +1,37 @@
 
-# ReadMe Generator
+# Title
 
 ## Description
 
-This project was created in order to facilitate the process of creating professional ReadMe files.
+Description
 
 ## Table of Contents
 
-[Installation](#installation)<br>
-[Usage](#usage)<br>
-[Credits](#credits)<br>
-[Contributing](#contributing)<br>
-[Tests](#tests)<br>
-[Questions](#questions)
+* [Installation](#installation)<br>
+* [Usage](#usage)<br>
+* [Credits](#credits)<br>
+* [Contributing](#contributing)<br>
+* [Tests](#tests)<br>
+* [Questions](#questions)
 
 ## Installation
 
-Simply install and run the application in node from your command line.
+Steps
 
 ## Usage
 
-Okay
-![This is a screenshot of the application.](assets/images/app_use.png)
+Instructions
+
+<img src ='assets/images/app_use.png' height = 300px>
 
 ## Credits
 
-collaborators all
+asd
     
 
 ## Contributing
 
-guidelines
+ds
 
 ## Tests
 
@@ -40,5 +41,5 @@ undefined
 
 If you have any questions, contact me at <maxhealy01@gmail.com>.
 
-You can also check out my github profile at [Github](https://github.com/maxhealy01)
+You can also check out my github profile at [Github](https://github.com/asdads)
     

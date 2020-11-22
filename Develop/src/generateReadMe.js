@@ -15,7 +15,7 @@ const generateContributorSection = credits => {
   if (!credits) {
     return '';
   }
-  return `[Credits](#credits)<br>`
+  return `* [Credits](#credits)<br>`
 }
 
 module.exports = data => {
@@ -28,12 +28,12 @@ ${data.description}
 
 ## Table of Contents
 
-[Installation](#installation)<br>
-[Usage](#usage)<br>
+* [Installation](#installation)<br>
+* [Usage](#usage)<br>
 ${generateContributorSection(data.credits)}
-[Contributing](#contributing)<br>
-[Tests](#tests)<br>
-[Questions](#questions)
+* [Contributing](#contributing)<br>
+* [Tests](#tests)<br>
+* [Questions](#questions)
 
 ## Installation
 
@@ -42,7 +42,8 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
-![This is a screenshot of the application.](assets/images/${data.screenshot})
+
+<img src ='assets/images/${data.screenshot}' height = 300px>
 ${generateContributors(data.credits)}
 
 ## Contributing
