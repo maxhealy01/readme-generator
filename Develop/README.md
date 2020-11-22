@@ -1,9 +1,11 @@
 
-# Title
+# README Generator
+
+<img src = "https://img.shields.io/badge/License-GNU GPLv3-red"
 
 ## Description
 
-Description
+I just love 
 
 
 ## Table of Contents
@@ -22,7 +24,7 @@ Steps
 
 Instructions
 
-<img src ='assets/images/app_use.png' height = 450px>
+<img src ='assets/images/app_use.ong' height = 450px>
 
 
 ## Contributing
@@ -31,7 +33,7 @@ Guidelines
 
 ## Tests
 
-Tests
+Tess
 
 ## Questions
 
@@ -41,5 +43,5 @@ You can also check out my github profile at [Github](https://github.com/maxhealy
 
 ## License
   
-  Licensed under the MIT license
+  Licensed under the GNU GPLv3.
     

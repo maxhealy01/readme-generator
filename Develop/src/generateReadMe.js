@@ -32,12 +32,22 @@ const generateLicense = license => {
   }
   return `## License
   
-  Licensed under the ${license} license`
+  Licensed under the ${license}.`
+}
+
+// This function will create a badge for the license selected
+const generateBadge = license => {
+  if (!license) {
+    return '';
+  }
+  return `<img src = "https://img.shields.io/badge/License-${license}-red"`
 }
 
 module.exports = data => {
   return `
 # ${data.title}
+
+${generateBadge(data.license)}
 
 ## Description
 
