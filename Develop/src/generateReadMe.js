@@ -15,7 +15,7 @@ const generateContributorSection = credits => {
   if (!credits) {
     return '';
   }
-  return `[Credits](#credits)`
+  return `[Credits](#credits)<br>`
 }
 
 const generateScreenshot = screenshot => {
@@ -33,11 +33,11 @@ ${data.description}
 
 ## Table of Contents
 
-[Installation](#installation)
-[Usage](#usage)
+[Installation](#installation)<br>
+[Usage](#usage)<br>
 ${generateContributorSection(data.credits)}
-[Contributing](#contributing)
-[Tests](#tests)
+[Contributing](#contributing)<br>
+[Tests](#tests)<br>
 [Questions](#questions)
 
 ## Installation
@@ -59,7 +59,7 @@ ${data.tests}
 
 ## Questions
 
-If you have any questions, contact me at ${data.email}.
+If you have any questions, contact me at <${data.email}>.
 
 You can also check out my github profile at [Github](https://github.com/${data.github})
     `
