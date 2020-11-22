@@ -3,40 +3,33 @@
 
 ## Description
 
-      </body> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis incidunt tempore quod sapiente pariatur consequatur dignissimos optio facere harum et, praesentium, ullam, recusandae aliquam velit cumque! Repellendus hic harum inventore?
+asd
 
 ## Table of Contents
 
 [Installation](#installation)
 [Usage](#usage)
-credits => {
-  if (!credits) {
-    return '';
-  }
-  return `
-  [Credits](#credits)`
-}
+[Credits](#credits)
 [Contributing](#contributing)
 [Tests](#tests)
 [Questions](#questions)
 
 ## Installation
 
-      </body> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis incidunt tempore quod sapiente pariatur consequatur dignissimos optio facere harum et, praesentium, ullam, recusandae aliquam velit cumque! Repellendus hic harum inventore?
+asd
 
 ## Usage
 
-      </body> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis incidunt tempore quod sapiente pariatur consequatur dignissimos optio facere harum et, praesentium, ullam, recusandae aliquam velit cumque! Repellendus hic harum inventore?
+ads
 
+## Credits
 
-    ## Credits
-
-    1, 2, 3!
+sdsa
     
 
 ## Contributing
 
-      </body> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis incidunt tempore quod sapiente pariatur consequatur dignissimos optio facere harum et, praesentium, ullam, recusandae aliquam velit cumque! Repellendus hic harum inventore?
+asd
 
 ## Tests
 
@@ -44,7 +37,7 @@ undefined
 
 ## Questions
 
-If you have any questions, contact me at email.
+If you have any questions, contact me at maxhealy01@gmail.com.
 
-You can also check out my github profile at [Github](https://github.com/githubname)
+You can also check out my github profile at [Github](https://github.com/maxhealy01)
     

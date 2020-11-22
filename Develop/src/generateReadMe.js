@@ -4,9 +4,9 @@ const generateContributors = credits => {
   }
 
   return `
-    ## Credits
+## Credits
 
-    ${credits}
+${credits}
     `
 }
 
@@ -15,15 +15,14 @@ const generateContributorSection = credits => {
   if (!credits) {
     return '';
   }
-  return `
-  [Credits](#credits)`
+  return `[Credits](#credits)`
 }
 
 const generateScreenshot = screenshot => {
 
 }
 
-const generateReadMe = data => {
+module.exports = data => {
   console.log(data.title)
   return `
 # ${data.title}
@@ -36,7 +35,7 @@ ${data.description}
 
 [Installation](#installation)
 [Usage](#usage)
-${generateContributorSection}
+${generateContributorSection(data.credits)}
 [Contributing](#contributing)
 [Tests](#tests)
 [Questions](#questions)
@@ -48,7 +47,6 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
-
 ${generateContributors(data.credits)}
 
 ## Contributing
@@ -66,5 +64,3 @@ If you have any questions, contact me at ${data.email}.
 You can also check out my github profile at [Github](https://github.com/${data.github})
     `
 }
-
-module.exports = generateReadMe
