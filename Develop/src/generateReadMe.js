@@ -26,6 +26,15 @@ const deployedLink = link => {
   return `<${link}>`
 }
 
+const generateLicense = license => {
+  if (!license) {
+    return '';
+  }
+  return `## License
+  
+  Licensed under the ${license} license`
+}
+
 module.exports = data => {
   return `
 # ${data.title}
@@ -67,5 +76,7 @@ ${data.tests}
 If you have any questions, contact me at <${data.email}>.
 
 You can also check out my github profile at [Github](https://github.com/${data.github})
+
+${generateLicense(data.license)}
     `
 }
