@@ -61,7 +61,7 @@ const questions = [
   {
     type: 'input',
     name: 'screenshot',
-    message: 'Provide a screenshot of your functional application. (Required)',
+    message: 'Provide the file name of a screenshot of your functional application. Make sure it is located in the assets/images folder. (Required)',
     validate: nameInput => {
       if (nameInput){
         return true;

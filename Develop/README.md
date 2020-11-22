@@ -1,9 +1,9 @@
 
-# title
+# ReadMe Generator
 
 ## Description
 
-dsf
+This project was created in order to facilitate the process of creating professional ReadMe files.
 
 ## Table of Contents
 
@@ -16,20 +16,21 @@ dsf
 
 ## Installation
 
-sdf
+Simply install and run the application in node from your command line.
 
 ## Usage
 
-sdf
+Okay
+![This is a screenshot of the application.](assets/images/app_use.png)
 
 ## Credits
 
-sdf
+collaborators all
     
 
 ## Contributing
 
-dsf
+guidelines
 
 ## Tests
 
@@ -37,7 +38,7 @@ undefined
 
 ## Questions
 
-If you have any questions, contact me at <sdf>.
+If you have any questions, contact me at <maxhealy01@gmail.com>.
 
-You can also check out my github profile at [Github](https://github.com/sdf)
+You can also check out my github profile at [Github](https://github.com/maxhealy01)
     

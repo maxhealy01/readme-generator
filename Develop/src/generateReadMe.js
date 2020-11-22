@@ -18,12 +18,7 @@ const generateContributorSection = credits => {
   return `[Credits](#credits)<br>`
 }
 
-const generateScreenshot = screenshot => {
-
-}
-
 module.exports = data => {
-  console.log(data.title)
   return `
 # ${data.title}
 
@@ -47,6 +42,7 @@ ${data.installation}
 ## Usage
 
 ${data.usage}
+![This is a screenshot of the application.](assets/images/${data.screenshot})
 ${generateContributors(data.credits)}
 
 ## Contributing
