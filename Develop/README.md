@@ -1,12 +1,12 @@
 
-# README
+# README Generator
 
 <img src = "https://img.shields.io/badge/License-Apache License 2.0-red">
 
 ## Description
 
-No
-<No>
+This project was built to quickly generate professional README files.
+
 
 ## Table of Contents
 
@@ -18,22 +18,22 @@ No
 
 ## Installation
 
-No
+Just clone the repository to your local machine, initialize the NPM and then run it as shown in the attached video.
 
 ## Usage
 
-NO
+See the previous answer.
 
 <img src ='assets/images/app_use.png' height = 450px>
 
 
 ## Contributing
 
-Guidelines
+There is no need for further contribution -- this app is perfect.
 
 ## Tests
 
-tests
+The only useful tests would be to see whether certain areas populate if certain of these questions are ignored.
 
 ## Questions
 
