@@ -34,6 +34,11 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'link',
+    message: 'If your project is deployed, include a link to it here.'
+  },
+  {
+    type: 'input',
     name: 'installation',
     message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. (Required)',
     validate: nameInput => {
@@ -86,6 +91,19 @@ const questions = [
     type: 'input',
     name: 'contributing',
     message: 'Provide guidelines for developers who want to contribute to this project in the future. (Required)',
+    validate: nameInput => {
+      if (nameInput){
+        return true;
+      } else {
+        console.log("Please enter contribution guidelines!");
+        return false;
+      }
+    }
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Write tests for your application and provide examples on how to run them.',
     validate: nameInput => {
       if (nameInput){
         return true;

@@ -1,45 +1,41 @@
 
-# Title
+# ReadMe Generator
 
 ## Description
 
-Description
+I wanted to
+
 
 ## Table of Contents
 
 * [Installation](#installation)<br>
 * [Usage](#usage)<br>
-* [Credits](#credits)<br>
 * [Contributing](#contributing)<br>
 * [Tests](#tests)<br>
 * [Questions](#questions)
 
 ## Installation
 
-Steps
+Step-by-step
 
 ## Usage
 
-Instructions
+Instructions and examples for use
 
-<img src ='assets/images/app_use.png' height = 300px>
+<img src ='assets/images/app_use.png' height = 450px>
 
-## Credits
-
-asd
-    
 
 ## Contributing
 
-ds
+These are guidelines for future developers assisting
 
 ## Tests
 
-undefined
+Here are some tests
 
 ## Questions
 
 If you have any questions, contact me at <maxhealy01@gmail.com>.
 
-You can also check out my github profile at [Github](https://github.com/asdads)
+You can also check out my github profile at [Github](https://github.com/maxhealy01)
     

@@ -3,8 +3,7 @@ const generateContributors = credits => {
       return '';
   }
 
-  return `
-## Credits
+  return `## Credits
 
 ${credits}
     `
@@ -15,7 +14,16 @@ const generateContributorSection = credits => {
   if (!credits) {
     return '';
   }
-  return `* [Credits](#credits)<br>`
+  return `
+* [Credits](#credits)<br>`
+}
+
+// This function will check for a link to the deployed application and provide it if there is one.
+const deployedLink = link => {
+  if (!link) {
+    return '';
+  }
+  return `<${link}>`
 }
 
 module.exports = data => {
@@ -25,12 +33,12 @@ module.exports = data => {
 ## Description
 
 ${data.description}
+${deployedLink(data.link)}
 
 ## Table of Contents
 
 * [Installation](#installation)<br>
-* [Usage](#usage)<br>
-${generateContributorSection(data.credits)}
+* [Usage](#usage)<br>${generateContributorSection(data.credits)}
 * [Contributing](#contributing)<br>
 * [Tests](#tests)<br>
 * [Questions](#questions)
@@ -43,7 +51,7 @@ ${data.installation}
 
 ${data.usage}
 
-<img src ='assets/images/${data.screenshot}' height = 300px>
+<img src ='assets/images/${data.screenshot}' height = 450px>
 ${generateContributors(data.credits)}
 
 ## Contributing
