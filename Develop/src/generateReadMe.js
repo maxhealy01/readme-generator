@@ -40,7 +40,7 @@ const generateBadge = license => {
   if (!license) {
     return '';
   }
-  return `<img src = "https://img.shields.io/badge/License-${license}-red"`
+  return `<img src = "https://img.shields.io/badge/License-${license}-red">`
 }
 
 module.exports = data => {

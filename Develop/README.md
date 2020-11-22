@@ -1,12 +1,12 @@
 
-# README Generator
+# README
 
-<img src = "https://img.shields.io/badge/License-GNU GPLv3-red"
+<img src = "https://img.shields.io/badge/License-Apache License 2.0-red">
 
 ## Description
 
-I just love 
-
+No
+<No>
 
 ## Table of Contents
 
@@ -18,13 +18,13 @@ I just love
 
 ## Installation
 
-Steps
+No
 
 ## Usage
 
-Instructions
+NO
 
-<img src ='assets/images/app_use.ong' height = 450px>
+<img src ='assets/images/app_use.png' height = 450px>
 
 
 ## Contributing
@@ -33,7 +33,7 @@ Guidelines
 
 ## Tests
 
-Tess
+tests
 
 ## Questions
 
@@ -43,5 +43,5 @@ You can also check out my github profile at [Github](https://github.com/maxhealy
 
 ## License
   
-  Licensed under the GNU GPLv3.
+  Licensed under the Apache License 2.0.
     
